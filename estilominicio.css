@@ -1,0 +1,166 @@
+*{/*Reglas de toda la pagina*/
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2E8B57; /* Verde */
+    color: #333333; /* Gris oscuro */
+}
+
+.contenedor{
+    margin: 0;
+    border: 0px solid black;
+}
+
+nav{
+    align-items: center;/*Centrar todos los elementos verticalmente*/
+    display: inline-flex;/* Contenido en una sola línea */
+    justify-content: space-around; /* Centrar todos los elementos horizontalmente */
+    line-height: 4; /* Alto de la cabecera */
+    position: fixed; /* Insertar el contenido en la pantalla */
+    transition: background-color 1s ease; /* Cronometrizar el color de fondo */
+    width: 100%; /* Ancho del contenido */
+    z-index: 2; /* Ordenar los elementos posicionados */
+}
+
+nav:hover{
+    background-color: rgb(125, 67, 0);
+    border-bottom: 2px solid rgb(255, 255, 255); /* Borde de abajo blanco */
+}
+
+nav span a{
+    text-decoration: none;
+    color: rgb(0, 0, 0); /* Color del texto */
+    font-weight: 700;
+}
+
+nav span a:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    color: rgb(255, 251, 228); /* Color del texto */
+    font-family: Tahoma;
+    margin-left: 400px;
+}
+
+.clearfix{/* PUNTO A PARTE */
+    clear: both;
+}
+
+div{
+    background: #c1ffdc; /* Verde */
+    margin: 0;
+    width: 100%;
+    top: 0;
+}
+
+.seccion1{
+    height: 90vh;
+    width: 100%;/*Ancho*/
+}
+
+video{
+    height: 90vh;
+    width: 100%;
+}
+
+.seccion2{
+    display: flex;
+    margin: 3%;
+    height: 400px;
+}
+
+.seccion0 .titulo0{
+    margin: 3%;
+    height: 150px;
+    margin-top: 6%;
+    margin-left: 6%;
+}
+
+.seccion0 .titulo0 .subtitulo{
+    color: #FFD700; /* Amarillo */
+    font-size: 35px;/*modifcar tamaño de la letra*/
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.seccion2 .catalogo1, .seccion2 .catalogo2, .seccion2 .catalogo3 {
+    color: #333333; /* Gris oscuro */
+    width: 53.3vh;
+}
+
+#titulo1, #titulo2, #titulo3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #333333; /* Gris oscuro */
+    font-family: Verdana, sans-serif;
+}
+
+#link_catalogo1, #link_catalogo2, #link_catalogo3 {
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: #FF4500; /* Naranja */
+    font-family: Verdana, sans-serif;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.seccion2 .catalogo2{
+    margin: 0 60px;
+}
+
+.seccion3{
+    background-color: black;
+    text-align: center;
+    margin: 10% 0 0;
+    height: 400px;
+    display: flex;
+}
+
+.seccion3 img{
+    border-radius: 0%;
+}
+
+.bt1, .bt2 {
+    width: 50%;
+    position: relative;
+    display: inline-block;
+}
+
+#bto1, #bto2 {
+    background-color: #FF4500; /* Naranja */
+    color: #FFFFFF; /* Blanco */
+    padding: 3%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 9px;
+    font-weight: bolder;
+    border: none;
+}
+
+button:hover {
+    background-color: #FFD700; /* Amarillo */
+    color: #333333; /* Gris oscuro */
+}
+
+footer{
+    background: rgb(0, 0, 0);/*Color del fondo de la cabecera*/
+    color: antiquewhite;
+    margin: 0;/*margen de la cabecera*/
+    width: 100%; /*ancho*/
+    display: inline-flex;
+    line-height: 3; /*ancho de la cabecera*/
+    height: auto;
+    justify-content: space-around;
+    font-weight: bold;
+}

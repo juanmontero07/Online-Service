@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    align-items: center; /* Centrar todos los elementos verticalmente */
+    display: inline-flex; /* Contenido en una sola línea */
+    justify-content: space-around; /* Centrar todos los elementos horizontalmente */
+    line-height: 4; /* Alto de la cabecera */
+    position: fixed; /* Insertar el contenido en la pantalla */
+    transition: background-color 1s ease; /* Cronometrizar el color de fondo */
+    width: 100%; /* Ancho del contenido */
+    z-index: 2; /* Ordenar los elementos posicionados */
+}
+
+nav:hover{
+    background-color: darkgoldenrod;
+    border-bottom: 2px solid rgb(255, 255, 255); /* Borde de abajo blanco */
+}
+
+nav span a{
+    text-decoration: none;
+    color: rgb(0, 0, 0); /* Color del texto */
+    font-weight: 700;
+}
+
+nav span a:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    color: rgb(255, 251, 228); /* Color del texto */
+    font-family: Tahoma;
+    margin-left: 400px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.contenedor1{
+    background-color: gold; /* Color del contenido */
+    border-bottom: 2px solid black; /* Borde de abajo negro */
+    font-family: 'Courier New', Courier, monospace; /* Cambiar la fuente de la letra */
+    font-size: 45px; /* Modificar tamaño de la letra */
+    height: 40vh; /* Tamaño vertical */
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.contenedor1 h2{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); /* Centrar verticalmente */
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 232);
+}
+
+.contenedor2 section{
+    padding: 10px;
+    background-color: rgb(255, 129, 91);
+    margin-top: 10%;
+    border-radius: 9px;
+    margin-bottom: 10%;
+    border: 2px solid rgb(104, 50, 0);
+}
+
+.contenedor2 section a{
+    background-color: brown;
+    color: aliceblue;
+    display: block; /* Cambiado a block para mejor ajuste de botón */
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px; /* Aumentado para mejor usabilidad */
+    border-radius: 10px;
+    margin-top: 10px; /* Añadido margen para separación */
+}
+
+.contenedor2 section p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.contenedor2 section img{
+    padding: 2px;
+    width: 40vh;
+    height: 40vh;
+    background-color: rgb(104, 68, 0);
+    border-radius: 5px;
+}
+
+footer{
+    background-color: brown;
+    font-weight: bolder;
+    line-height: 2;
+    text-align: center;
+    border-top: 2px solid black;
+}

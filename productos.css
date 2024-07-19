@@ -1,0 +1,228 @@
+*{/*Relgas de toda la pagina*/
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    align-items: center; /* Centrar todos los elementos verticalmente */
+    display: inline-flex; /* Contenido en una sola línea */
+    justify-content: space-around; /* Centrar todos los elementos horizontalmente */
+    line-height: 4; /* Alto de la cabecera */
+    position: fixed; /* Insertar el contenido en la pantalla */
+    transition: background-color 1s ease; /* Cronometrizar el color de fondo */
+    width: 100%; /* Ancho del contenido */
+    z-index: 2; /* Ordenar los elementos posicionados */
+}
+
+nav:hover{
+    background-color: rgb(13, 81, 97);
+    border-bottom: 2px solid rgb(255, 255, 255); /* Borde de abajo blanco */
+}
+
+nav span a{
+    text-decoration: none;
+    color: rgb(0, 0, 0); /* Color del texto */
+    font-weight: 700;
+}
+
+nav span a:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    color: rgb(255, 251, 228); /* Color del texto */
+    font-family: Tahoma;
+    margin-left: 400px;
+}
+
+.clearfix{/* PUNTO A PARTE */
+    clear: both;
+}
+
+.contenido1{/*seccion1*/
+    background: cadetblue;
+    border-bottom: 1px solid black; /*borde de abajo negro*/
+    width: 100%; /*Ancho del contenido*/
+    height: 40vh; /*Alto de la cabecera*/
+}
+
+.contenido1 h2{/*Titulo del seccion1*/
+    display: flex;/*Manipular espacio del contenido*/
+    justify-content: center;/*Centrar elementos*/
+    position: relative; /*Manipular ubicacion de los elementos*/
+    top: 55%;/*Colocar titulo en la mitad verticalmente a 55%*/
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px; /* Tamaño de la fuente, ajusta según tus preferencias */
+    font-weight: bold; /* Hace que el texto sea negritado */
+}
+
+.clearfix{/* PUNTO A PARTE */
+    clear: both;
+}
+
+.producto1{
+    position: relative;
+    margin-top: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    background: rgb(179, 236, 238);
+    width: 40vh;
+    height: auto;
+    float:right;
+    border-radius: 9px;
+}
+
+.producto1 p{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.producto1 a{
+    text-decoration: none;
+    background-color: rgb(1, 109, 100);
+    display: grid;
+    text-align: center;
+    color: aliceblue;
+    align-content: center;
+    padding: 10px; /* Aumentado para mejor usabilidad */
+    border-radius: 10px;
+    margin-top: 10px; /* Añadido margen para separación */
+}
+
+#ft1{
+    width: 40vh; 
+    height: auto;
+    border-radius: 9%;
+}
+
+.producto2{
+    position: relative;
+    margin-top: 10%;
+    margin-left: 10%;
+    padding: 10px;
+    background: rgb(179, 236, 238);
+    width: 40vh;
+    height: auto;
+    float:left;
+    border-radius: 9px;
+}
+
+.producto2 p{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.producto2 a{
+    text-decoration: none;
+    background-color: rgb(1, 109, 100);
+    display: grid;
+    text-align: center;
+    color: aliceblue;
+    align-content: center;
+    padding: 10px; /* Aumentado para mejor usabilidad */
+    border-radius: 10px;
+    margin-top: 10px; /* Añadido margen para separación */
+}
+
+#ft2{
+    width: 40vh; 
+    height: auto;
+    border-radius: 9%;
+}
+
+.producto3{
+    position: relative;
+    margin: 10% 10%;
+    padding: 10px;
+    background: rgb(179, 236, 238);
+    width: 40vh;
+    height: auto;
+    float:left;
+    border-radius: 9px;
+}
+
+.producto3 p{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.producto3 a{
+    text-decoration: none;
+    background-color: rgb(1, 109, 100);
+    display: grid;
+    text-align: center;
+    color: aliceblue;
+    align-content: center;
+    padding: 10px; /* Aumentado para mejor usabilidad */
+    border-radius: 10px;
+    margin-top: 10px; /* Añadido margen para separación */
+}
+
+#ft3{
+    width: 40vh; 
+    height: auto;
+    border-radius: 9%;
+}
+
+.producto4{
+    position: relative;
+    margin: 10% 10%;
+    padding: 10px;
+    background: rgb(179, 236, 238);
+    width: 40vh;
+    height: auto;
+    float:right;
+    border-radius: 9px;
+}
+
+.producto4 p{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.producto4 a{
+    text-decoration: none;
+    background-color: rgb(1, 109, 100);
+    display: grid;
+    text-align: center;
+    color: aliceblue;
+    align-content: center;
+    padding: 10px; /* Aumentado para mejor usabilidad */
+    border-radius: 10px;
+    margin-top: 10px; /* Añadido margen para separación */
+}
+
+#ft4{
+    width: 40vh; 
+    height: auto;
+    border-radius: 9%;
+}
+
+
+.clearfix{/* PUNTO A PARTE */
+    clear: both;
+}
+
+footer{
+    background: cadetblue;
+    text-align: center;
+    line-height: 2;
+    width: 100%;
+    bottom: 0;
+    border-top: 1px solid black;
+    display: grid;
+    font-weight: bolder;
+}
